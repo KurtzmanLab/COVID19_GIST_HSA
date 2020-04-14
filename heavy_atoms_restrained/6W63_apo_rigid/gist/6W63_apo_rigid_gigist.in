@@ -1,0 +1,7 @@
+parm /home/eric/COVID/rigid_target/6W63/eric.17045.master.lehman.edu/6w63_apo5.prmtop
+
+trajin /home/eric/COVID/rigid_target/6W63/eric.17045.master.lehman.edu/NPT_prod.nc
+
+gigist griddim 50 50 50 refdens 0.0333 gridspacn 0.5 gridcntr 29 31 44
+
+go

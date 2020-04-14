@@ -1,0 +1,7 @@
+parm /home/eric/COVID/apo/flex/6Y84/eric.17090.master.lehman.edu/6y84_ion_apo.prmtop
+
+trajin /home/eric/COVID/apo/flex/6Y84/eric.17090.master.lehman.edu/NPT_prod.nc
+
+gigist griddim 50 50 50 refdens 0.0333 gridspacn 0.5 gridcntr 31 47 60
+
+go

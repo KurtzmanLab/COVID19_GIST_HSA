@@ -1,0 +1,86 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     Displayed atoms
+MODEL        1
+ATOM      1  N   ALA C   2      52.040  39.615  57.215  1.00 41.65           N  
+ATOM      2  CA  ALA C   2      51.457  40.615  56.336  1.00 42.30           C  
+ATOM      3  C   ALA C   2      52.508  41.740  56.082  1.00 41.96           C  
+ATOM      4  O   ALA C   2      53.157  42.149  56.966  1.00 41.95           O  
+ATOM      5  CB  ALA C   2      50.226  41.208  56.973  1.00 36.98           C  
+ATOM      6  N   VAL C   3      52.680  42.271  54.752  1.00 34.91           N  
+ATOM      7  CA  VAL C   3      53.668  43.326  54.507  1.00 36.29           C  
+ATOM      8  C   VAL C   3      52.960  44.596  54.114  1.00 40.78           C  
+ATOM      9  O   VAL C   3      52.242  44.607  53.169  1.00 36.69           O  
+ATOM     10  CB  VAL C   3      54.619  42.885  53.356  1.00 37.53           C  
+ATOM     11  CG1 VAL C   3      55.493  44.076  52.853  1.00 40.26           C  
+ATOM     12  CG2 VAL C   3      55.507  41.677  53.796  1.00 43.10           C  
+ATOM     13  N   LEU C   4      53.171  45.849  54.926  1.00 37.32           N  
+ATOM     14  CA  LEU C   4      52.499  47.086  54.557  1.00 39.95           C  
+ATOM     15  C   LEU C   4      53.041  47.551  53.175  1.00 38.38           C  
+ATOM     16  O   LEU C   4      54.212  47.560  52.972  1.00 44.55           O  
+ATOM     17  CB  LEU C   4      52.798  48.145  55.606  1.00 41.97           C  
+ATOM     18  CG  LEU C   4      51.622  48.387  56.605  1.00 45.86           C  
+ATOM     19  CD1 LEU C   4      50.789  47.090  56.860  1.00 43.70           C  
+ATOM     20  CD2 LEU C   4      52.136  48.972  57.923  1.00 43.98           C  
+TER      21      LEU C   4
+HETATM   22  C4  02J C   1      54.198  36.410  57.288  1.00 54.38           C  
+HETATM   23  C5  02J C   1      54.699  35.847  58.483  1.00 63.03           C  
+HETATM   24  C6  02J C   1      55.278  34.448  58.647  1.00 64.36           C  
+HETATM   25  O1  02J C   1      54.575  36.745  59.416  1.00 63.01           O  
+HETATM   26  N2  02J C   1      54.038  37.851  58.955  1.00 56.79           N  
+HETATM   27  C3  02J C   1      53.775  37.728  57.651  1.00 50.26           C  
+HETATM   28  C41 02J C   1      53.148  38.788  56.732  1.00 47.56           C  
+HETATM   29  O42 02J C   1      53.561  38.933  55.634  1.00 47.13           O  
+HETATM   30  C19 PJE C   5      52.630  48.415  50.792  1.00 40.54           C  
+HETATM   31  C20 PJE C   5      52.124  49.807  50.488  1.00 36.98           C  
+HETATM   32  C21 PJE C   5      53.258  50.792  50.130  1.00 45.43           C  
+HETATM   33  C22 PJE C   5      54.456  50.754  51.119  1.00 52.38           C  
+HETATM   34  C25 PJE C   5      52.167  47.454  49.699  1.00 30.76           C  
+HETATM   35  C26 PJE C   5      52.796  45.993  49.889  1.00 34.19           C  
+HETATM   36  C27 PJE C   5      54.408  46.031  49.566  1.00 40.55           C  
+HETATM   37  C28 PJE C   5      54.698  45.051  48.677  1.00 39.60           C  
+HETATM   38  N6  PJE C   5      53.385  44.561  48.116  1.00 35.08           N  
+HETATM   39  C29 PJE C   5      52.240  45.138  49.097  1.00 34.70           C  
+HETATM   40  O8  PJE C   5      51.183  45.720  48.332  1.00 31.54           O  
+HETATM   41  N5  PJE C   5      52.099  47.977  52.101  1.00 34.60           N  
+HETATM   42  O7  PJE C   5      54.269  50.721  52.292  1.00 57.27           O  
+HETATM   43  C   010 C   6      56.793  50.572  51.600  1.00 63.14           C  
+HETATM   44  O   010 C   6      55.783  50.772  50.607  1.00 52.13           O  
+HETATM   45  C1  010 C   6      58.884  51.920  52.163  1.00 68.45           C  
+HETATM   46  C2  010 C   6      59.556  53.128  52.343  1.00 70.02           C  
+HETATM   47  C3  010 C   6      58.879  54.337  52.161  1.00 58.91           C  
+HETATM   48  C4  010 C   6      57.538  54.329  51.802  1.00 57.63           C  
+HETATM   49  C5  010 C   6      56.863  53.124  51.619  1.00 62.65           C  
+HETATM   50  C6  010 C   6      57.541  51.917  51.800  1.00 66.95           C  
+CONECT   22   23   27
+CONECT   23   22   24   25
+CONECT   24   23
+CONECT   25   23   26
+CONECT   26   25   27
+CONECT   27   22   26   28
+CONECT   28   27   29    1
+CONECT   29   28
+CONECT   30   31   34   41
+CONECT   31   30   32
+CONECT   32   31   33
+CONECT   33   32   42   44
+CONECT   34   30   35
+CONECT   35   34   36   39
+CONECT   36   35   37
+CONECT   37   36   38
+CONECT   38   37   39
+CONECT   39   35   38   40
+CONECT   40   39
+CONECT   41   15   30
+CONECT   42   33
+CONECT   43   44   50
+CONECT   44   33   43
+CONECT   45   46   50
+CONECT   46   45   47
+CONECT   47   46   48
+CONECT   48   47   49
+CONECT   49   48   50
+CONECT   50   43   45   49
+ENDMDL
+END   

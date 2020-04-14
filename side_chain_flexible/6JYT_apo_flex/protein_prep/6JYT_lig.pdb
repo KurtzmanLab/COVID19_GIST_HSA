@@ -1,0 +1,73 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     Displayed atoms
+MODEL        1
+HETATM    1  PB  ADP A1854      37.869  47.380  48.699  1.00  6.85           P  
+HETATM    2  O1B ADP A1854      38.067  46.236  47.675  1.00  8.61           O  
+HETATM    3  O2B ADP A1854      39.241  47.976  49.143  1.00 10.18           O1-
+HETATM    4  O3B ADP A1854      37.122  46.849  49.914  1.00  9.94           O1-
+HETATM    5  PA  ADP A1854      37.694  49.837  47.527  1.00  6.82           P  
+HETATM    6  O1A ADP A1854      38.781  49.544  46.446  1.00  6.34           O  
+HETATM    7  O2A ADP A1854      38.316  50.584  48.686  1.00  8.86           O1-
+HETATM    8  O3A ADP A1854      37.028  48.488  48.019  1.00 14.80           O  
+HETATM    9  O5' ADP A1854      36.524  50.668  46.858  1.00 16.33           O  
+HETATM   10  C5' ADP A1854      35.798  50.041  45.850  1.00 10.28           C  
+HETATM   11  C4' ADP A1854      35.097  50.950  44.862  1.00 10.54           C  
+HETATM   12  O4' ADP A1854      33.803  51.532  45.244  1.00 12.76           O  
+HETATM   13  C3' ADP A1854      35.856  52.103  44.292  1.00 11.11           C  
+HETATM   14  O3' ADP A1854      35.761  52.382  42.946  1.00 14.08           O  
+HETATM   15  C2' ADP A1854      35.584  53.178  45.285  1.00 11.20           C  
+HETATM   16  O2' ADP A1854      36.014  54.480  45.016  1.00 16.80           O  
+HETATM   17  C1' ADP A1854      34.136  52.915  45.732  1.00  9.64           C  
+HETATM   18  N9  ADP A1854      33.581  53.323  47.005  1.00 15.04           N  
+HETATM   19  C8  ADP A1854      33.922  52.791  48.336  1.00 13.01           C  
+HETATM   20  N7  ADP A1854      33.195  53.436  49.233  1.00  7.71           N  
+HETATM   21  C5  ADP A1854      32.350  54.410  48.517  1.00 15.68           C  
+HETATM   22  C6  ADP A1854      31.358  55.383  48.980  1.00 10.84           C  
+HETATM   23  N6  ADP A1854      31.054  55.508  50.377  1.00 13.33           N  
+HETATM   24  N1  ADP A1854      30.671  56.213  48.032  1.00 13.29           N  
+HETATM   25  C2  ADP A1854      30.958  56.094  46.632  1.00 12.54           C  
+HETATM   26  N3  ADP A1854      31.908  55.170  46.189  1.00 10.75           N  
+HETATM   27  C4  ADP A1854      32.621  54.298  47.175  1.00 11.70           C  
+CONECT    1    2    3    4    8
+CONECT    1    2
+CONECT    2    1
+CONECT    2    1
+CONECT    3    1
+CONECT    4    1
+CONECT    5    6    7    8    9
+CONECT    5    6
+CONECT    6    5
+CONECT    6    5
+CONECT    7    5
+CONECT    8    1    5
+CONECT    9    5   10
+CONECT   10    9   11
+CONECT   11   10   12   13
+CONECT   12   11   17
+CONECT   13   11   14   15
+CONECT   14   13
+CONECT   15   13   16   17
+CONECT   16   15
+CONECT   17   12   15   18
+CONECT   18   17   19   27
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   20   22   27
+CONECT   21   27
+CONECT   22   21   23   24
+CONECT   22   24
+CONECT   23   22
+CONECT   24   22   25
+CONECT   24   22
+CONECT   25   24   26
+CONECT   25   26
+CONECT   26   25   27
+CONECT   26   25
+CONECT   27   18   21   26
+CONECT   27   21
+ENDMDL
+END   
