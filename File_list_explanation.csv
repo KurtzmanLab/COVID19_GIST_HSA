@@ -1,54 +1,50 @@
-Directory Name under each Target,,,
-,,File name,Note
-protein_prep,,,
-,,"""target"".pdb",Prepared structure solved in OPC water box
-,,"""target""_lig.pdb",The ligand file to define active site for the target
-,,"""target"".prmtop ",Amber topolgy file for strating the MD simulation
-,,"""target"".rst7",Amber rst7 file for starting MD
-,,,
-amber,,,
-,,"""target""_md6.rst7",The generated Amber rst7 file used for production run
-,,"""target""_firstframe.pdb",The initial frame of production run
-,,"""target""_firstframe_nowat.pdb",The protein in the initial frame of production run
-,,"""target""_NPT_prod.rst7",The rst7 file when production run ends
-,,"""target""_lastframe.pdb",The last frame of production run
-,,"""target""_lastframe_nowat.pdb",The protein in the last frame of production run
-,,,
-gist,,,
-,,"""target""_gist-Esw-dens.dx","Water-solute interactoon energy  density, unit in Kcal/mol* A3"
-,,"""target""_gist-Esw-norm.dx","Water-solute normalized interaction energy, unit in Kcal/mol*water"
-,,"""target""_gist-Eww-dens.dx","Water-water interaction enrgy density, unit in Kcal/mol*A3"
-,,"""target""_gist-Eww-norm.dx","Water-water normalized interaction energy, unit in Kcal/mol*water"
-,,"""taget""_gist-Etot-dens.dx","Total water energy density, unit in Kcal/mol*A3"
-,,"""target""_gist-Etot-norm.dx","Normalized total water energy, unit in Kcal/mol*water"
-,,"""target""_gist-dTSorient-den.dx","Orientational entropy density, unit in Kcal/mol*A3"
-,,"""target""_gist-dTSorient-norm.dx","Normalized orientational entropy, unit in Kcal/mol*water"
-,,"""target""_gist-dTSsix-dens.dx","Six dimentional entropy density , unit in Kcal/mol*A3"
-,,"""target""_gist-dTSsix-norm.dx","Normalized six dimentional entropy, unit in Kcal/mol*water"
-,,"""target""_gist-dTStrans-dens.dx","Translational entropy density, unit in Kcal/mol*A3"
-,,"""target""_gist-dTStrans-norm.dx","Normalized translatioal entropy, unit in Kcal/mol*water"
-,,"""target""_gist-gO.dx",Normalized Water density
-,,"""target""_out.dat",Original GUP-GIST result
-,,"""target""_gigist.in",The input file for GPU-GIST
-,,,
-HSA5 (Hydration Sites) ,,,
-,,Cluster Files,contains HSA clusters pdb files
-,,Orientational Cluster,contains most probable orientations of water for every HSA cluster pdb files
-,,Raw Data HAS,"contains txt files such as Esw, Eww, EwwLJ, Ewwnbr for each HSA cluster"
-,,orient.dat,orientational entropy
-,,trans.dat,translational entropy
-,,clustercenterfiles.pdb,contains all HSA clusters in one pdb
-,,,
-,,,
-,,,
-,,,
-,,,
-Shared MD paratemers,,,
-,,Flie name ,Note
-flex/rigid_MD_parameters ,,,
-,,min1.in,Minimize water
-,,min2.in,Minimize everything 
-,,md3.in,NVT heating to 300 K
-,,md5.in,"NPT to equilibrium density, regulate pressure to 1 atm"
-,,md6.in,"NPT equilibrium, 1 atm, 300 K"
-,,NPT_prod.in,"NPT production , 1 atm, 300K"
+Directory Name under each Target,,
+,File name,Note
+protein_prep,,
+,"""target"".pdb",Prepared structure solved in OPC water box
+,"""target""_lig.pdb",The ligand file to define active site for the target
+,"""target"".prmtop ",Amber topolgy file for strating the MD simulation
+,"""target"".rst7",Amber rst7 file for starting MD
+,,
+amber,,
+,"""target""_md6.rst7",The generated Amber rst7 file used for production run
+,"""target""_firstframe.pdb",The initial frame of production run
+,"""target""_firstframe_nowat.pdb",The protein in the initial frame of production run
+,"""target""_NPT_prod.rst7",The rst7 file when production run ends
+,"""target""_lastframe.pdb",The last frame of production run
+,"""target""_lastframe_nowat.pdb",The protein in the last frame of production run
+,,
+gist,,
+,"""target""_gist-Esw-dens.dx","Water-solute interactoon energy  density, unit in Kcal/mol* A3"
+,"""target""_gist-Esw-norm.dx","Water-solute normalized interaction energy, unit in Kcal/mol*water"
+,"""target""_gist-Eww-dens.dx","Water-water interaction enrgy density, unit in Kcal/mol*A3"
+,"""target""_gist-Eww-norm.dx","Water-water normalized interaction energy, unit in Kcal/mol*water"
+,"""taget""_gist-Etot-dens.dx","Total water energy density, unit in Kcal/mol*A3"
+,"""target""_gist-Etot-norm.dx","Normalized total water energy, unit in Kcal/mol*water"
+,"""target""_gist-dTSorient-den.dx","Orientational entropy density, unit in Kcal/mol*A3"
+,"""target""_gist-dTSorient-norm.dx","Normalized orientational entropy, unit in Kcal/mol*water"
+,"""target""_gist-dTSsix-dens.dx","Six dimentional entropy density , unit in Kcal/mol*A3"
+,"""target""_gist-dTSsix-norm.dx","Normalized six dimentional entropy, unit in Kcal/mol*water"
+,"""target""_gist-dTStrans-dens.dx","Translational entropy density, unit in Kcal/mol*A3"
+,"""target""_gist-dTStrans-norm.dx","Normalized translatioal entropy, unit in Kcal/mol*water"
+,"""target""_gist-gO.dx",Normalized Water density
+,"""target""_out.dat",Original GUP-GIST result
+,"""target""_gigist.in",The input file for GPU-GIST
+,,
+HSA5 (Hydration Sites) ,,
+,Cluster Files,contains HSA clusters pdb files
+,Orientational Cluster,contains most probable orientations of water for every HSA cluster pdb files
+,Raw Data HAS,"contains txt files such as Esw, Eww, EwwLJ, Ewwnbr for each HSA cluster"
+,orient.dat,orientational entropy
+,trans.dat,translational entropy
+,clustercenterfiles.pdb,contains all HSA clusters in one pdb
+,,
+Shared MD paratemers,,
+,Flie name ,Note
+flex/rigid_MD_parameters ,,
+,min1.in,Minimize water
+,min2.in,Minimize everything 
+,md3.in,NVT heating to 300 K
+,md5.in,"NPT to equilibrium density, regulate pressure to 1 atm"
+,md6.in,"NPT equilibrium, 1 atm, 300 K"
+,NPT_prod.in,"NPT production , 1 atm, 300K"
