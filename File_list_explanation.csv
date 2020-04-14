@@ -2,7 +2,7 @@ Directory Name under each Target,,
 ,File name,Note
 protein_prep,,
 ,"""target"".pdb",Prepared structure solved in OPC water box
-,"""target""_lig.pdb",The ligand file to define active site for the target
+,"""target""_lig.pdb",The ligand file to define active site for solvation analysis.  This is aligned to the MD simulation protein structure
 ,"""target"".prmtop ",Amber topolgy file for strating the MD simulation
 ,"""target"".rst7",Amber rst7 file for starting MD
 ,,
