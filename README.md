@@ -5,5 +5,7 @@ For the protien apo sturcture, we currently have run GIST/HSA on 7 different tar
 
 For the protein-ligand complex, we currently have run GIST/HSA on 2 complexes ( 6W63_complex and 6Y84_complex).
 
+For the explanation of the file names, please check the "File_list_explanation.csv" file
 
-For requesting GIST/HSA solvation map on more COVID-19 related targets, please contact Dr.Kurtzman by simpleliquid@gmail.com
+
+For requesting GIST/HSA data for new/interesting COVID-19 related targets, please reach Dr.Kurtzman by simpleliquid@gmail.com
