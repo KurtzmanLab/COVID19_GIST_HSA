@@ -8,4 +8,4 @@ For the protein-ligand complex, we currently have run GIST/HSA on 2 complexes ( 
 For the explanation of the file names, please check the "File_list_explanation.csv" file
 
 
-**For requesting GIST/HSA data for new/interesting COVID-19 related targets, please reach Dr.Kurtzman by simpleliquid@gmail.com**
+**if requesting GIST/HSA data for other COVID-19 related targets, please contact Dr.Kurtzman by simpleliquid@gmail.com**
