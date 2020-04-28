@@ -1,0 +1,7 @@
+parm /home/eric/COVID/Mckay/rewatmd/YB76AB_APO/eric.17238.master.lehman.edu/YB76AB_APO_OPC.top
+
+trajin /home/eric/COVID/Mckay/rewatmd/YB76AB_APO/eric.17238.master.lehman.edu/prod.nc
+
+gigist griddim 60 60 60 refdens 0.0333 gridspacn 0.5 gridcntr 49 40 68
+
+go
