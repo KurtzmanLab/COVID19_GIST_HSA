@@ -1,0 +1,8 @@
+REMARKS
+This pdb file has the most probable orientations in a water cluster.
+ATOM      1  OW  SOL C5688      28.972  25.134  52.536  30.059%
+ATOM      2  H1  SOL X5688      28.444  24.536  52.183
+ATOM      3  H2  SOL X5688      28.657  25.235  53.343
+ATOM      4  OW  SOL C5688      28.842  25.644  52.823  10.866%
+ATOM      5  H1  SOL X5688      28.073  25.232  52.824
+ATOM      6  H2  SOL X5688      28.859  26.049  53.596
