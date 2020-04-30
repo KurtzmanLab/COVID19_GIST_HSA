@@ -2,6 +2,6 @@ parm /home/eric/COVID/apo/rigid/6JYT/eric.17084.master.lehman.edu/6jyt_ion_apo.p
 
 trajin /home/eric/COVID/apo/rigid/6JYT/eric.17084.master.lehman.edu/NPT_prod.nc
 
-gigist griddim 50 50 50 refdens 0.0333 gridspacn 0.5 gridcntr 35 52 47
+gigist griddim 60 60 60 refdens 0.0333 gridspacn 0.5 gridcntr 32 53 53
 
 go

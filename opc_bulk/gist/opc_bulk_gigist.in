@@ -1,0 +1,7 @@
+parm /home/eric/COVID/OPC_bulk/eric.17049.master.lehman.edu/opc_water.prmtop
+
+trajin /home/eric/COVID/OPC_bulk/eric.17049.master.lehman.edu/NPT_prod_7000f.nc
+
+gigist griddim 50 50 50 refdens 0.0333 gridspacn 0.5 gridcntr 15 15 15
+
+go
