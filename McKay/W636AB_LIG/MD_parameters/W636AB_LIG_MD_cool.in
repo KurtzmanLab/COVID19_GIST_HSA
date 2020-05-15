@@ -1,9 +1,0 @@
-AMBER 18 sander: minimization of full system, No restraints
- &cntrl
-   imin=1, ntpr=50,  
-   cut=9.0, maxcyc=99999,
-   ncyc=50,  ntmin=1, drms=0.1,
-   ntb=1, ntr=1, iwrap=1, 
-   restraint_wt=0.0,
-   restraintmask= ':1-618', 
-   /

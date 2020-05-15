@@ -1,5 +1,0 @@
-parm YB76A_LIG_OPC.top
-trajin equil.rst7
-trajout equil.pdb
-go
-quit

@@ -1,5 +1,0 @@
-parm W636AB_APO_OPC.top
-trajin equil.rst7
-trajout equil.pdb
-go
-quit
