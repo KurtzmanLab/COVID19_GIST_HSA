@@ -6,7 +6,12 @@ protein_prep,,
 ,,
 amber,,
 ,"""target""_md6.rst7",The generated Amber rst7 file used for production run
-,,
+,min1.in,Minimize water
+,min2.in,Minimize everything 
+,md3.in,NVT heating to 300 K
+,md5.in,"NPT to equilibrium density, regulate pressure to 1 atm"
+,md6.in,"NPT equilibrium, 1 atm, 300 K"
+,NPT_prod.in,"NPT production , 1 atm, 300K"
 gist,,
 ,"Esw-dens-""target"".dx","Water-solute interactoon energy  density, unit in Kcal/mol* A3"
 ,"Esw-norm_""target"".dx","Water-solute normalized interaction energy, unit in Kcal/mol*water"
@@ -31,13 +36,3 @@ HSA5 (Hydration Sites) ,,
 ,orient.dat,orientational entropy
 ,trans.dat,translational entropy
 ,clustercenterfiles.pdb,contains all HSA clusters in one pdb
-,,
-Shared MD paratemers,,
-,Flie name ,Note
-flex/rigid_MD_parameters ,,
-,min1.in,Minimize water
-,min2.in,Minimize everything 
-,md3.in,NVT heating to 300 K
-,md5.in,"NPT to equilibrium density, regulate pressure to 1 atm"
-,md6.in,"NPT equilibrium, 1 atm, 300 K"
-,NPT_prod.in,"NPT production , 1 atm, 300K"
