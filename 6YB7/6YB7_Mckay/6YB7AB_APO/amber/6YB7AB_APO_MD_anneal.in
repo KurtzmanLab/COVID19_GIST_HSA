@@ -1,0 +1,24 @@
+AMBER 15.0 PMEMD: anneal waters 
+ &cntrl
+   imin=0, irest=0, ntx=1, nmropt=1,
+   ntt=1, temp0=40.0, tautp=0.2,
+   cut=9,
+   taup=0.1,
+   ntpr=500, pres0=1.0,
+   ntp=1, ntb=2, ntc=2, ntf=2,
+   ntr=1,
+   dt=0.001,
+   nstlim=8000,
+   restraint_wt=20.0,
+   restraintmask= ':1-616 & !@H=',
+   / 
+ &wt type='TEMP0', istep1=0,    istep2=1000, value1=1.0, value2=10.0 /
+ &wt type='TEMP0', istep1=1001, istep2=2000, value1=10.0, value2=20.0 /
+ &wt type='TEMP0', istep1=2001, istep2=3000, value1=20.0, value2=30.0 /
+ &wt type='TEMP0', istep1=3001, istep2=4000, value1=30.0, value2=40.0 /
+ &wt type='TEMP0', istep1=4001, istep2=5000, value1=40.0, value2=30.0 /
+ &wt type='TEMP0', istep1=5001, istep2=6000, value1=30.0, value2=20.0 /
+ &wt type='TEMP0', istep1=6001, istep2=7000, value1=20.0, value2=10.0 /
+ &wt type='TEMP0', istep1=7001, istep2=8000, value1=10.0, value2=0.0 /
+ &wt type='END' /
+ DISANG=junk
