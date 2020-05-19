@@ -1,18 +1,11 @@
 Directory Name under each Target,,
 ,File name,Note
 protein_prep,,
-,"""target"".pdb",Prepared structure solved in OPC water box
-,"""target""_lig.pdb",The ligand file to define active site for solvation analysis. Aligned to the MD  protein structure
 ,"""target"".prmtop ",Amber topolgy file for strating the MD simulation
 ,"""target"".rst7",Amber rst7 file for starting MD
 ,,
 amber,,
 ,"""target""_md6.rst7",The generated Amber rst7 file used for production run
-,"""target""_firstframe.pdb",The initial frame of production run
-,"""target""_firstframe_nowat.pdb",The protein in the initial frame of production run
-,"""target""_NPT_prod.rst7",The rst7 file when production run ends
-,"""target""_lastframe.pdb",The last frame of production run
-,"""target""_lastframe_nowat.pdb",The protein in the last frame of production run
 ,,
 gist,,
 ,"Esw-dens-""target"".dx","Water-solute interactoon energy  density, unit in Kcal/mol* A3"

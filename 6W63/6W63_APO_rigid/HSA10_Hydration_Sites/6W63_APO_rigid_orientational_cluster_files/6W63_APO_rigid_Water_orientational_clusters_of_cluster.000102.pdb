@@ -1,0 +1,18 @@
+REMARKS
+This pdb file has the most probable orientations in a water cluster.
+We consider an orientational cluster if it has at least 10% of water population as neighbors.
+ATOM      1  OW  SOL C5688      27.118  38.008  46.955  15.627%
+ATOM      2  H1  SOL X5688      27.952  37.798  46.808
+ATOM      3  H2  SOL X5688      26.961  37.681  47.748
+ATOM      4  OW  SOL C5688      26.932  38.132  46.996  10.013%
+ATOM      5  H1  SOL X5688      27.766  37.912  46.864
+ATOM      6  H2  SOL X5688      26.956  39.002  47.048
+ATOM      7  OW  SOL C5688      27.178  38.058  46.363  5.318%
+ATOM      8  H1  SOL X5688      27.943  38.046  46.782
+ATOM      9  H2  SOL X5688      27.300  37.506  45.698
+ATOM     10  OW  SOL C5688      27.027  38.306  47.119  3.775%
+ATOM     11  H1  SOL X5688      27.843  37.999  47.096
+ATOM     12  H2  SOL X5688      26.588  37.761  46.599
+ATOM     13  OW  SOL C5688      27.418  38.601  47.290  3.578%
+ATOM     14  H1  SOL X5688      27.069  38.013  47.832
+ATOM     15  H2  SOL X5688      28.194  38.259  47.088

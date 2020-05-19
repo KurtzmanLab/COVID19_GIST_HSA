@@ -1,0 +1,11 @@
+REMARKS
+The centered orientational cluster.
+ATOM      1  OW  WT1 O  90      49.007  39.939  63.943  28.0%
+ATOM      2  H1  WT1 H  90      49.435  40.391  63.332
+ATOM      3  H2  WT1 H  90      49.604  39.378  64.240
+ATOM      4  OW  WT2 O  90      49.007  39.939  63.943  13.0%
+ATOM      5  H1  WT2 H  90      49.420  40.344  63.289
+ATOM      6  H2  WT2 H  90      49.645  39.771  64.514
+ATOM      7  OW  WT3 O  90      49.007  39.939  63.943  13.0%
+ATOM      8  H1  WT3 H  90      48.519  40.488  64.414
+ATOM      9  H2  WT3 H  90      49.390  40.458  63.355

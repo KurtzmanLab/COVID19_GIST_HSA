@@ -1,0 +1,13 @@
+minimize water
+ &cntrl
+   imin=1, ntmin=1, nmropt=0, drms=0.1,
+   maxcyc=20000, ncyc=1500,
+   ntx=1,	// not a restart
+   irest=0,
+   ntpr=100, ntwr=100, iwrap=1,
+   ntf=1,	// SHAKE is off
+   ntb=1,	 // constant volume pbc 
+   cut=10.0,
+   ntr=1, restraint_wt=100, // Cartesian restraint
+   restraintmask='!:WAT',
+ /
