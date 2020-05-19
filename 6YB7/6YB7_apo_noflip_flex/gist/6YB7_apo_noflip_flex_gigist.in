@@ -1,7 +1,0 @@
-parm /home/eric/COVID/apo/flex/6YB7_noflip/eric.16983.master.lehman.edu/6yb7_apo_M166noflip.prmtop
-
-trajin /home/eric/COVID/apo/flex/6YB7_noflip/eric.16983.master.lehman.edu/NPT_prod.nc
-
-gigist griddim 60 60 60 refdens 0.0333 gridspacn 0.5 gridcntr 25 42 57
-
-go

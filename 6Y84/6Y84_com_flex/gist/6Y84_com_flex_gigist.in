@@ -1,7 +1,0 @@
-parm /home/eric/COVID/complex/flex/6Y84/eric.17100.master.lehman.edu/6y84_com.prmtop
-
-trajin /home/eric/COVID/complex/flex/6Y84/eric.17100.master.lehman.edu/NPT_prod.nc
-
-gigist griddim 60 60 60 refdens 0.0333 gridspacn 0.5 gridcntr 31 47 60
-
-go
