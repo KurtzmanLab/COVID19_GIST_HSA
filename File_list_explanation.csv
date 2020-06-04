@@ -13,22 +13,34 @@ amber,,
 ,md6.in,"NPT equilibrium, 1 atm, 300 K"
 ,NPT_prod.in,"NPT production , 1 atm, 300K"
 gist,,
-,"Esw-dens-""target"".dx","Water-solute interactoon energy  density, unit in Kcal/mol* A3"
-,"Esw-norm_""target"".dx","Water-solute normalized interaction energy, unit in Kcal/mol*water"
-,"Eww-dens_""target"".dx","Water-water interaction enrgy density, unit in Kcal/mol*A3"
-,"Eww-norm_""target"".dx","Water-water normalized interaction energy, unit in Kcal/mol*water"
-,"Etot-dens_""target"".dx","Total water energy density, unit in Kcal/mol*A3"
-,"Etot-norm_""target"".dx","Normalized total water energy, unit in Kcal/mol*water"
-,"dTSorient-den_""target"".dx","Orientational entropy density, unit in Kcal/mol*A3"
-,"dTSorient-norm_""target"".dx","Normalized orientational entropy, unit in Kcal/mol*water"
-,"dTSsix-dens_""target"".dx","Six dimentional entropy density , unit in Kcal/mol*A3"
-,"dTSsix-norm_""target"".dx","Normalized six dimentional entropy, unit in Kcal/mol*water"
-,"dTStrans-dens_""target"".dx","Translational entropy density, unit in Kcal/mol*A3"
-,"dTStrans-norm_""target"".dx","Normalized translatioal entropy, unit in Kcal/mol*water"
+,"Esw-dens-""target"".dx","Water-solute interaction energy  density, units of Kcal/mol/A^3"
+,"Esw-norm_""target"".dx","Water-solute normalized interaction energy, units of Kcal/mol/water"
+,"Eww-dens_""target"".dx","Water-water interaction energy density, units of Kcal/mol/A^3"
+,"Eww-norm_""target"".dx","Water-water normalized interaction energy, units of Kcal/mol/water"
+,"Etot-dens_""target"".dx","Total water energy density, units of Kcal/mol/A^3"
+,"Etot-norm_""target"".dx","Normalized total water energy, units of Kcal/mol/water"
+,"dTSorient-den_""target"".dx","Orientational entropy density, units of Kcal/mol/A^3"
+,"dTSorient-norm_""target"".dx","Normalized orientational entropy, units of Kcal/mol/water"
+,"dTSsix-dens_""target"".dx","Six dimensional entropy density, units of Kcal/mol/A^3"
+,"dTSsix-norm_""target"".dx","Normalized six dimensional entropy, units of Kcal/mol/water"
+,"dTStrans-dens_""target"".dx","Translational entropy density, units of Kcal/mol/A^3"
+,"dTStrans-norm_""target"".dx","Normalized translational entropy, units of Kcal/mol/water"
 ,"gO_""target"".dx",Normalized Water density
-,"""target""_out.dat",Original GUP-GIST result
+,"""target""_out.dat",Original GPU-GIST result
 ,"""target""_gigist.in",The input file for GPU-GIST
 ,,
+3D-RISM,,
+,"DG_solv_""target"".dx","Solvation free energy density, units of Kcal/mol/A^3"
+,"Eww_""target"".dx","Water-water interaction energy density, units of Kcal/mol/A^3"
+,"Esw_""target"".dx","Water-solute interaction energy density, units of Kcal/mol/A^3"
+,"Etot_""target"".dx","Total water energy density, units of Kcal/mol/A^3"
+,"negTS_""target"".dx","Negative temperature * water-solute-entropy, units of Kcal/mol/A^3 "
+,"gO_""target"".dx",Water oxygen number density distribution
+,"gH_""target"".dx",Water hydrogen number density distribution
+,"""target"".prmtop",Amber parameter-topology file for the solute with explicit water removed.
+,"""target"".pdb",PDB format file for the solute with explicit water removed.
+,"""target"".nc",Amber NetCDF coordinate file for the solute with explicit water removed.
+,run.sh,3D-RISM script.
 HSA5 (Hydration Sites) ,,
 ,Cluster Files,contains HSA clusters pdb files
 ,Orientational Cluster,contains most probable orientations of water for every HSA cluster pdb files
