@@ -29,6 +29,18 @@ gist,,
 ,"""target""_out.dat",Original GUP-GIST result
 ,"""target""_gigist.in",The input file for GPU-GIST
 ,,
+3D-RISM,,
+,"DG_solv_""target"".dx","Solvation free energy density, units of Kcal/mol/A^3"
+,"Eww_""target"".dx","Water-water interaction energy density, units of Kcal/mol/A^3"
+,"Esw_""target"".dx","Water-solute interaction energy density, units of Kcal/mol/A^3"
+,"Etot_""target"".dx","Total water energy density, units of Kcal/mol/A^3"
+,"negTS_""target"".dx","Negative temperature * water-solute-entropy, units of Kcal/mol/A^3 "
+,"gO_""target"".dx",Water oxygen number density distribution
+,"gH_""target"".dx",Water hydrogen number density distribution
+,"""target"".prmtop",Amber parameter-topology file for the solute with explicit water removed.
+,"""target"".pdb",PDB format file for the solute with explicit water removed.
+,"""target"".nc",Amber NetCDF coordinate file for the solute with explicit water removed.
+,run.sh,3D-RISM script.
 HSA5 (Hydration Sites) ,,
 ,Cluster Files,contains HSA clusters pdb files
 ,Orientational Cluster,contains most probable orientations of water for every HSA cluster pdb files
