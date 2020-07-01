@@ -1,0 +1,4 @@
+parm /home/students/COVID/PLpro/PLpro_FULL_Rest/Zn/acruz.27337.master.lehman.edu/6wx4_APO_ZAFF_10Abox.prmtop
+trajin /home/students/COVID/PLpro/PLpro_FULL_Rest/Zn/acruz.27337.master.lehman.edu/NPT_prod.nc
+gigist griddim 60 60 60 refdens 0.0333 gridspacn 0.5 gridcntr 49 23 54
+go
