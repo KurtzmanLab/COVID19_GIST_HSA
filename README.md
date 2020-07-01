@@ -4,7 +4,7 @@
 Currently, we have the GIST/HSA/3D-RISM data for 7 targets:
 
 Structures 1-5  (SARS-CoV-2 structures)
-Main Protease (Mpro, 3CLpro): **_6LU7_** (2.16 Å), **_6YB7_** (1.25 Å), **_6M03_** (2.00 Å), **_6Y84_** (1.39 Å), **_6W63_** (2.10 Å). Target the substrate binding site of Mpro.
+Main Protease (Mpro, 3CLpro): **_6LU7_** (2.16 Å), **_6YB7_** (1.25 Å), **_6M03_** (2.00 Å), **_6Y84_** (1.39 Å), **_6W63_** (2.10 Å), **_6WX4_** (1.7 Å) . Target the substrate binding site of Mpro.
 
 Structure 6  (SARS-CoV-1 structure)
 Helicase (Nsp13): **_6JYT_** (2.80 Å). Target (1) the ADP binding site but discourage (2) the nucleic acids binding site. *No SARS-CoV-2 structure exists for this protein.
